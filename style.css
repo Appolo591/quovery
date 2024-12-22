@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(42, 165, 61);
+  color: rgb(237, 241, 232);
+}
+
+main {
+  background-color: cadetblue;
+  color: antiquewhite;
+}
+
+footer {
+  background-color: darkslategray;
+}
+
+/*# sourceMappingURL=style.css.map */

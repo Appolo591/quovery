@@ -1,0 +1,16 @@
+{
+  "name": "tp_quovery",
+  "version": "1.0.0",
+  "description": "Exercice de maquettage quovery .",
+  "main": "index.js",
+  "devDependencies": {
+    "sass":"1.82.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bjr": "echo 'Bonjour les gens' ",
+    "sass -c": "sass --watch ./intro.scss ./style.css"
+  },
+  "author": "paul lom",
+  "license": "MIT"
+}
