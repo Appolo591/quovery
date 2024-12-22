@@ -1,2 +1,4 @@
-.node_modules
+# les fichiers ne seront pas versionnés sur github
+
+/node_modules
 .package-lock.json
