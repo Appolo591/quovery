@@ -3,10 +3,108 @@
     padding: 0;
 }
 
-
-header{
-    background-color: rgb(42, 165, 61);
-    color: rgb(237, 241, 232);
+p{
+    font-family: 'SF UI Text', sans-serif;
 }
 
-  
+header{
+    background-color: #151B2B;
+    color: rgb(237, 241, 232);
+
+    #left-bloc{
+        font-family: "Hanken Grotesk", serif;
+        max-width: 487px;
+        margin-left: 3px;
+        
+        #first-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+            text-transform: capitalize;
+            width: fit-content;
+            max-width: 158px;
+            height: 50px;
+            padding: 10px;
+
+            img{
+                height: fit-content;
+                padding-right: 15px;
+                height: 49px;
+            }
+            p{
+                color: #A8A8C1;
+                height: 31px;
+            }
+        }    
+        #second-container{
+            margin-top: 35px;
+
+            div:first-of-type{
+                display: flex;
+                flex-direction: row;
+                justify-content: left;
+                align-items: center;
+                text-transform: capitalize;
+                width: fit-content; 
+                max-width: 420px;
+            }
+            h1{
+                font-size: larger;
+                font-weight: bolder;
+                color: white;
+                padding-right: 18px;
+                max-width: 299px;
+                
+            }
+
+            img{
+                width: 95px;
+                height: 28px;
+                border-radius: 2px;
+            }
+        h2{
+            margin: 24px 0;
+            max-height: 70px;
+        }
+        
+        p{
+            margin: 70px 0;
+        }
+        #bottom-icons{
+            
+            display: flex;
+            max-height: 39px;
+            margin-top: 10px;
+            max-width: 364px;
+            margin-bottom: 60px ;
+
+            img{
+                border-radius: 3px;
+                width: 35%;
+                max-height: 21px;
+                margin-right: 20px;
+                padding: 5px 10px;
+
+            }
+            img:first-of-type{
+                background-color: #454658;
+            }
+            img:last-of-type{
+                background-color: #6578C0;
+            }
+
+        
+        }
+            
+        }
+    }
+    #right-bloc{
+        max-width: 567px;
+        max-height: 687px;
+        img{
+            width:99%;
+
+        }
+    }
+}
