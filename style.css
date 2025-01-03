@@ -98,6 +98,76 @@ header #right-bloc img {
   width: 99%;
 }
 
+@media only screen and (min-width: 768px) {
+  header #left-bloc {
+    margin: 0 auto;
+  }
+  main #third-section {
+    display: flex;
+    flex-direction: column;
+  }
+  main #third-section h2 {
+    margin: 0 auto;
+  }
+  footer #ul-bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: last baseline;
+  }
+  footer #ul-bloc div:first-of-type {
+    width: 30%;
+  }
+  footer .pre-list {
+    padding: 0 30px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+  main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  main #third-section div {
+    width: 35%;
+  }
+  main #third-section div:first-of-type {
+    position: relative;
+  }
+  main #third-section div:nth-of-type(2) {
+    position: absolute;
+    margin-left: 430px;
+  }
+  main #third-section div:nth-of-type(3) {
+    position: relative;
+  }
+  main #third-section div:last-of-type {
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 650px;
+  }
+  footer #ul-bloc {
+    display: flex;
+    flex-direction: row;
+  }
+  footer #ul-bloc div:first-of-type {
+    width: 20%;
+  }
+  footer #ul-bloc #master {
+    width: 80%;
+  }
+  footer #ul-bloc #master ul {
+    border: dashed;
+  }
+  footer #copyright li {
+    display: inline-block;
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
 main {
   background-color: #f9f9fd;
   font-family: "Hanken Grotesk", serif;
@@ -253,19 +323,23 @@ footer #ul-bloc #star {
   justify-items: center;
   margin: 0 auto;
 }
-footer #ul-bloc ul {
+footer #ul-bloc ul:first-of-type {
+  align-items: baseline;
+}
+footer #ul-bloc .pre-list {
+  display: inline-block;
+  margin: 15px 0;
+}
+footer #ul-bloc .list {
   text-transform: capitalize;
   margin: 30px 0;
   list-style: none;
 }
-footer #ul-bloc ul li:first-of-type {
+footer #ul-bloc .list li:first-of-type {
   font-weight: bold;
   margin-bottom: 15px;
 }
-footer #ul-bloc ul li {
-  margin: 15px 0;
-}
-footer #ul-bloc ul li:last-of-type {
+footer #ul-bloc .list li:last-of-type {
   margin-bottom: 60px;
 }
 footer #copyright {
