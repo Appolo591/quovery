@@ -16,7 +16,7 @@ header #left-bloc {
   max-width: 487px;
   margin-left: 3px;
 }
-header #left-bloc #first-container {
+header #left-bloc .main-logo {
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -27,12 +27,12 @@ header #left-bloc #first-container {
   height: 50px;
   padding: 10px;
 }
-header #left-bloc #first-container img {
+header #left-bloc .main-logo img {
   height: fit-content;
   padding-right: 15px;
   height: 49px;
 }
-header #left-bloc #first-container p {
+header #left-bloc .main-logo p {
   color: #A8A8C1;
   height: 31px;
 }
@@ -69,6 +69,8 @@ header #left-bloc #second-container p {
 }
 header #left-bloc #second-container #bottom-icons {
   display: flex;
+  flex-direction: row;
+  justify-items: center;
   max-height: 39px;
   margin-top: 10px;
   max-width: 364px;
@@ -76,13 +78,14 @@ header #left-bloc #second-container #bottom-icons {
 }
 header #left-bloc #second-container #bottom-icons img {
   border-radius: 3px;
-  width: 35%;
+  width: 50%;
   max-height: 21px;
   margin-right: 20px;
   padding: 5px 10px;
 }
-header #left-bloc #second-container #bottom-icons img:first-of-type {
+header #left-bloc #second-container #bottom-icons #git {
   background-color: #454658;
+  margin-left: 55px;
 }
 header #left-bloc #second-container #bottom-icons img:last-of-type {
   background-color: #6578C0;
@@ -169,7 +172,7 @@ main #second-section #white-icons img:last-of-type {
 main #third-section div {
   min-height: 408px;
   min-width: 408px;
-  margin: 15px;
+  margin: 25px 5px;
 }
 main #third-section div img {
   width: 80%;
@@ -201,9 +204,90 @@ main #third-section h2 {
 footer #black-bloc {
   background-color: #151B2B;
   height: 50px;
-}
-footer img {
   width: 100%;
+  font-family: "SF UI Text", sans-serif;
+}
+footer .main-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  text-transform: capitalize;
+  width: fit-content;
+  max-width: 158px;
+  height: 50px;
+  padding: 10px;
+  margin: 40px 0;
+}
+footer .main-logo img {
+  height: fit-content;
+  padding-right: 15px;
+  height: 49px;
+}
+footer .main-logo p {
+  color: #0a0a14;
+  height: 31px;
+  font-weight: bold;
+}
+footer #ul-bloc div:first-of-type {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+footer #ul-bloc div:first-of-type p {
+  text-align: center;
+}
+footer #ul-bloc div:first-of-type #grey-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+footer #ul-bloc div:first-of-type #grey-icons img {
+  height: 20px;
+  border-radius: 2px;
+}
+footer #ul-bloc #star {
+  width: fit-content;
+  justify-items: center;
+  margin: 0 auto;
+}
+footer #ul-bloc ul {
+  text-transform: capitalize;
+  margin: 30px 0;
+  list-style: none;
+}
+footer #ul-bloc ul li:first-of-type {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+footer #ul-bloc ul li {
+  margin: 15px 0;
+}
+footer #ul-bloc ul li:last-of-type {
+  margin-bottom: 60px;
+}
+footer #copyright {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Hanken Grotesk", serif;
+  width: 100%;
+  height: 25px;
+  margin: 0 auto;
+}
+footer #copyright li {
+  margin-top: 10px;
+}
+footer #copyright li a {
+  text-decoration: none;
+}
+footer #copyright li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

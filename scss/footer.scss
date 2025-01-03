@@ -2,10 +2,95 @@ footer{
     #black-bloc{
         background-color: #151B2B;
         height: 50px;
+        width: 100%;
+        font-family: "SF UI Text", sans-serif;;
     }
-    img{
-        width:100%;
+    .main-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        text-transform: capitalize;
+        width: fit-content;
+        max-width: 158px;
+        height: 50px;
+        padding: 10px;
+        margin: 40px 0;
+        img{
+            height: fit-content;
+            padding-right: 15px;
+            height: 49px;
+        }
+        p{
+            color: #0a0a14;
+            height: 31px;
+            font-weight: bold;
         }
     }
+    #ul-bloc{
+        div:first-of-type{
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            p{
+                text-align: center;
+            } 
+            #grey-icons{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin: 20px auto;
+                img{
+                    height: 20px;    
+                    border-radius: 2px;
+                }
+            }  
+        }
+        #star{
+            width: fit-content;
+            justify-items: center;
+            margin: 0 auto;
+        }
+        ul{
+            text-transform: capitalize;
+            margin: 30px 0;
+            list-style: none;
+            li:first-of-type{
+            font-weight: bold;
+            margin-bottom: 15px;
+            }
+            li{
+                margin: 15px 0;
+            }
+            li:last-of-type{
+                margin-bottom: 60px;
+            }
+        }
+        
+    }
+    #copyright{
+        display: flex;
+        flex-direction: column;
+        list-style:none;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Hanken Grotesk", serif;
+        width:100%;
+        height: 25px;
+        margin: 0 auto ;
+        li {
+            margin-top: 10px;
+            a{
+                text-decoration: none;
+            }
+            a:hover{
+                text-decoration: underline;
+                font-weight: bold;   
+            }
+            
+        }
+    } 
+}
 
 

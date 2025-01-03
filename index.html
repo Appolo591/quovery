@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TP final de maquettage du site Qovery dans le cadre de la formation développeur web du Greta Metehor">
+    <meta name="description" content="TP final de maquettage du site Qovery en HTML et CSS dans le cadre de la formation développeur web du Greta Metehor">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="ressources/logo qovery.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,25 +16,27 @@
 <body>
     <header>
         <div id="left-bloc">
-            <div id="first-container">
-                <img src="ressources/logo qovery.png" alt="logo quovery" srcset="">
+            <div class="main-logo">
+                <img src="ressources/logo qovery.png" alt="logo quovery violet" title="logo quovery">
                 <p>quovery</p>
             </div>
             <div id="second-container">
                 <div>
                 <h1>quovery engine</h1>
-                <img src="ressources//image 5.png" alt="logo github" srcset="">
+                <img src="ressources//image 5.png" alt="logo github simple" title="logo github" >
                 </div>
                 <h2>Abstraction layer to deploy microservices applications on any Cloud provider.</h2>
                 <p>Qovery Engine is an open-source abstraction layer product that turns easy apps deployment on AWS, GCP, Azure and others Cloud providers.</p>
 
                 <div id="bottom-icons">
-                <img src="ressources/Icons git.png" alt=""><img src="ressources/Icons discord.png" alt="">
+                <a href="https://github.com/"><img src="ressources/Icons git.png" alt="bonton renvoyant au site github" title="bouton github" id="git"></a>
+
+                <a href="https://discord.com/"><img src="ressources/Icons discord.png" alt="bonton renvoyant au site discord" title="bouton discord"></a>
                 </div>
 
             </div>
         <div id="right-bloc">
-            <img src="ressources/schema.png" alt="schema global quovery" srcset="">
+            <img src="ressources/schema.png" alt="schema global quovery" title="global quovery" >
             
         </div>
         </div>
@@ -45,7 +47,7 @@
         <section id="first-section">
             <h2>How does it work?</h2>
             <p>Qovery Engine is an open-source abstraction layer product that turns easy apps deployment on AWS, GCP, Azure and others Cloud providers. The Qovery Engine is coded in Rust and takes advantage of Terraform, Helm, Kubectl, Docker to manage resources.</p>
-            <img src="ressources/schema monitor.png" alt="photo layers" srcset="">
+            <img src="ressources/schema monitor.png" alt="schéma détaillé quovery en plusieurs niveaux"  title="quovery layers">
         </section>
         
 
@@ -57,20 +59,21 @@
             </div>
 
             <div id="couple-img">
-                <img src="ressources/usage.png" alt="vectors">
+                <img src="ressources/usage.png" alt="image vectorielle , plans et pointillés" title="vectors">
 
-                <img id="rust" src="ressources/code rust.png" alt="code rust" srcset="">
+                <img id="rust" src="ressources/code rust.png" alt="exemple de code rust" title="code rust">
             
             </div>
+            
             <div id="white-icons">
-            <img src="ressources/Icons.png" alt="logo github" srcset="">
-            <img src="ressources/Icons discord.png" alt="logo discord" srcset="">
+            <img src="ressources/Icons.png" alt="logo github" title="github logo">
+            <img src="ressources/Icons discord.png" alt="logo discord" title="discord logo">
             </div>
 
         </section>
         <section id="third-section">
             <div>
-                <img src="ressources/Group 248.png" alt="deploy photo" srcset="">
+                <img src="ressources/Group 248.png" alt="deploy photo" title="deploy">
                 <h3>Deploy real world applications</h3>
                 <p>Qovery Engine empowers you to deploy complex applications, such as a backend, a frontend, and a database in a very simple way. </p>
                 <br>
@@ -78,7 +81,7 @@
                 <p class="see-more">see more</p>
             </div>
             <div>
-                <img src="ressources/Frame 199.png" alt="resilience schema" srcset="">
+                <img src="ressources/Frame 199.png" alt="resilience schema" title="resilience">
                 <h3>Resiliency is key</h3>
                 <p>Qovery Engine knows when something goes wrong on the deployment of your applications. Qovery Engine is built with resiliency in mind.</p>
                 <br>
@@ -86,7 +89,7 @@
                 <p class="see-more">see more</p>
             </div>  
             <div>
-                <img src="ressources/On Top of Tools 1.png" alt="on top schema" srcset="">
+                <img src="ressources/On Top of Tools 1.png" alt="on top schema" title="multi layers">
                 <h3>On top of the best tools</h3>
                 <p>Qovery Engine does not reinvent the wheel. It takes advantage of the best tools in the Cloud industry, such as Kubernetes, Terraform, and Helm to manage the deployment of the infrastructure and your applications.</p>
                 <br>
@@ -94,77 +97,119 @@
                 <p class="see-more">see more</p>
             </div>    
             <div>
-                <img src="ressources/Policies 2.png" alt="extensible schema" srcset="">
+                <img src="ressources/Policies 2.png" alt="extensible schema" title="extensible">
                 <h3>Extensible</h3>
                 <p>Qovery Engine is built to be highly extensible. Adding the support of a Cloud provider or a Continuous Integration platform is as simple as implementing a simple programmatic interface.</p>
                 <p class="see-more">see more</p>
             </div>  
             <h2>They use quovery engine</h2>
+            
         </section>
     </main>
 
         <footer>
             <div id="black-bloc"></div>
-            <img src="ressources/image 6.png" alt="logo footer" srcset="">     
+
+            <div class="main-logo">
+                <img src="ressources/logo qovery.png" alt="logo quovery" title="quovery">
+                <p>quovery</p>
+            </div>
+            
+            <div id="ul-bloc">
+
+            <div >
+                <p>Qovery combines the power of Kubernetes , the reliability of AWS , and the simplicity of Heroku to deploy your apps .</p>
+
+                <div id="grey-icons">
+                    <img src="ressources/github.png" alt="git logo" title="git-logo">
+                    <img src="ressources/logo-linkedin.png" alt="linkedin-logo" title="linkedin-logo">
+                    <img src="ressources/twitter (1).png" alt="x-logo" title="x-logo">
+                    <img src="ressources/discorde.png" alt="discord-logo" title="discord-logo">
+                </div>
+                <div id="star">
+                    <img id="git-star-logo" src="ressources/image 5.png" alt="git-star-logo" title="git-star">
+                </div>
+            </div>
+            <ul>
+                <li>resources</li>
+                <li>documentation</li>
+                <li>guides</li>
+                <li>tutorials</li>
+                <li>engineering</li>
+                <li>pricing</li>
+                <li>api</li>
+                <li>github</li>
+            </ul>
+            <ul>
+                <li>community</li>
+                <li>dicord</li>
+                <li>forum</li>
+                <li>community call</li>
+                <li>goodies</li>
+                <li>roadmap</li>
+            </ul>
+            <ul>
+                <li>quovery vs other</li>
+                <li>heroku</li>
+                <li>netifly</li>
+                <li>terraform</li>
+            </ul>
+            <ul>
+                <li>company</li>
+                <li>blog</li>
+                <li>jobs</li>
+                <li>team</li>
+                <li>investors</li>
+                <li>terms</li>
+                <li>contact</li>
+            </ul>
+        </div>
+    <hr>    
+    <ul id="copyright">
+        <li> &copy; designed by covery backed by <a href="https://www.techstars.com/" title="techstar" target="_blank" aria-label="lien externe">techstars</a></li>
+
+        <li>proud silver member of
+            <a href="https://www.cncf.io/" title="cncf" target="_blank" aria-label="lien externe">cncf</a> and
+            <a href="https://www.linuxfoundation.org/" title="linux fondation" target="_blank" aria-label="lien externe">linux fondation</a>
+        </li>
+        <li>qovery by birdsight - all rights reserved</li>
+        
+    </ul>
+    </div>    
         </footer>  
         
 </body>
 </html>
-<!-- FOOTER ???
 
-<div id="bottom-bloc">
-                    <p>quovery</p>
+
+<!-- MAIN RUST ?????
+
+<div id="rust">
+                <div id="rust-btn">rust</div>
+                <p>let engine = Engine::new(</p>
+                <p> context, // parameters
+                    local_docker, // initialize Docker as a Build Platform
+                    ecr, // initialize Elastic Container Registry
+                    aws, // initialize AWS account
+                    cloudflare, // initialize Cloudflare as DNS Nameservers</p>
+                <span>);</span> 
+                <br>
+                <p>let session = match engine.session() {</p>
+                <p>    Ok(session) => session, // get the session
+                    Err(config_error) => panic!("configuration error {:?}", config_error),</p>
+                <span>};</span> 
+                <br>
+                <p>let mut tx = session.transaction();</p>
+                <br>
+                <p></p>// create EKS (AWS managed Kubernetes cluster)
+                tx.create_kubernetes(&eks);
                 
-                <div id="ul-bloc">
-                <div>
-                    <p>Qovery combines the power of Kubernetes , the reliability of AWS , and the simplicity of Heroku to deploy your apps .</p>
-                    <img src="ressources/Icons discord.png" alt="git logo">
-                    <img src="" alt="linkedin-logo">
-                    <img src="" alt="x-logo">
-                    <img src="" alt="discord-logo">
-                <img src="ressources/image 5.png" alt="git-star-logo" srcset="">
-                </div>
-                <ul>resources
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>community
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>quovery vs other
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>company
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-        <ul id="copyright">
-            <li></li>
-            <li> <a href="http://" title="techstar"></a></li>
-            <li> 
-                <a href="" title="cncf"></a>
-                <a href="" title="linux fondation"></a>
-            </li>
-            <li></li>
-            
-        </ul>
+                // create the infrastructure and wait for the result
+                match tx.commit() { 
+                    TransactionResult::Ok => println!("OK"),
+                    TransactionResult::Rollback(commit_err) => println!("ERROR but rollback OK"), 
+                    TransactionResult::UnrecoverableError(commit_err, rollback_err) => println!("FATAL ERROR")
+                };</p>
 
 
-        </div>
-        
+            </div>-->      

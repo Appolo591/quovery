@@ -16,7 +16,7 @@ header{
         max-width: 487px;
         margin-left: 3px;
         
-        #first-container{
+        .main-logo{
             display: flex;
             flex-direction: row;
             justify-content: left;
@@ -67,36 +67,32 @@ header{
             margin: 24px 0;
             max-height: 70px;
         }
-        
         p{
             margin: 70px 0;
         }
         #bottom-icons{
-            
             display: flex;
+            flex-direction: row;
+            justify-items: center;
             max-height: 39px;
             margin-top: 10px;
             max-width: 364px;
             margin-bottom: 60px ;
-
             img{
                 border-radius: 3px;
-                width: 35%;
+                width: 50%;
                 max-height: 21px;
                 margin-right: 20px;
                 padding: 5px 10px;
-
             }
-            img:first-of-type{
+            #git{
                 background-color: #454658;
+                margin-left: 55px;
             }
             img:last-of-type{
                 background-color: #6578C0;
             }
-
-        
-        }
-            
+        }    
         }
     }
     #right-bloc{
